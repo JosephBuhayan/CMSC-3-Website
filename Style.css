@@ -1,0 +1,317 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.headerlogo {
+    position: relative; /* Set relative positioning for the overlay */
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #fff; /* Text color */
+    border-bottom: 2px solid #ddd;
+    z-index: 1; /* Ensure it stays above the pseudo-element */
+}
+
+.navigation {
+    position: relative;
+    padding: 10px 20px;
+    text-align: center;
+    background-image: url('Images/UPMin_Oblation.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px; /* Makes the div rounded */
+}
+
+.navigation nav {
+    position: absolute; /* Position the navigation links absolutely */
+    bottom: 10px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    z-index: 1; /* Ensure it stays above the overlay */
+    text-align: right; /* Align the text to the right */
+}
+
+.navigation nav a {
+    color: #ffffff; /* Change this to your desired color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.navigation nav a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Optional: Different color on hover */
+}
+
+.navigation nav a:hover {
+    color: #ffffff; /* Optional: Different color on hover */
+    text-decoration: underline;
+}
+
+.navigation::before {
+    content: ""; /* Empty content for the overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 0; /* Places it below the navigation content */
+    border-radius: 50px; /* Makes the div rounded */
+}
+
+/* Dropdown container */
+.navigation .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown links */
+.navigation .dropdown-content {
+    display: none; /* Hide the dropdown by default */
+    position: absolute;
+    background-color: #00331a; /* Adjust to match your color scheme */
+    min-width: 160px; /* Set width of the dropdown */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: adds shadow */
+    text-align: left;
+    border-radius: 5px;
+}
+
+/* Style for each link in the dropdown */
+.navigation .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /* Stack the links vertically */
+    font-size: 1rem;
+}
+
+/* Show the dropdown menu when hovering over the parent link */
+.navigation .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color on hover */
+.navigation .dropdown-content a:hover {
+    background-color: #004d26; /* Adjust to your preference */
+}
+
+/* Style the main navigation links */
+.navigation nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+/* Hover effect for navigation links */
+.navigation nav a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Optional: Different color on hover */
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.header-text p {
+    margin: 5px 0 0;
+    color: #555;
+    font-size: 1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+}
+
+.announcements {
+    width: 70%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.announcement-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.announcement-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.announcement-box p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.announcement-box a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.announcement-box a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    width: 30%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-align: center;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+.login h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.login form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login form button {
+    width: 95%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login form button:hover {
+    background-color: #0056b3;
+}
+
+
+.content-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 100%;
+    word-break: break-word;
+}
+
+.announcements-bottom {
+    width: 70%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.announcements-bottom h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.announcement-box-bottom {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius:20px;
+}
+
+.announcement-box-bottom h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.announcement-box-bottom p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.announcement-box-bottom a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.announcement-box-bottom a:hover {
+    text-decoration: underline;
+}
+
+.additional-section {
+    width: 30%;
+    max-width: 400px;
+    height: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.additional-section button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.additional-section button:hover {
+    text-decoration: underline;
+}
+
+.bottom-part{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 60px;
+
+} 
+.announcements-bottom {
+    display: none; /* Hide the announcements initially */
+}
