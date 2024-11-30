@@ -20,7 +20,7 @@ body {
     position: relative;
     padding: 10px 20px;
     text-align: center;
-    background-image: url('Images/UPMin_Oblation.jpg');
+    background-image:url('UPMin_Oblation.jpg');
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -78,7 +78,7 @@ body {
 .navigation .dropdown-content {
     display: none; /* Hide the dropdown by default */
     position: absolute;
-    background-color: #00331a; /* Adjust to match your color scheme */
+    background-color: #1e4c15; /* Adjust to match your color scheme */
     min-width: 160px; /* Set width of the dropdown */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: adds shadow */
     text-align: left;
@@ -101,7 +101,7 @@ body {
 
 /* Change the background color on hover */
 .navigation .dropdown-content a:hover {
-    background-color: #004d26; /* Adjust to your preference */
+    background-color: #246b20; /* Adjust to your preference */
 }
 
 /* Style the main navigation links */
@@ -178,7 +178,7 @@ body {
 }
 
 .announcement-box a {
-    color: #007BFF;
+    color: #8B0909;
     text-decoration: none;
 }
 
@@ -209,21 +209,22 @@ body {
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 27px;
 }
 
 .login form button {
-    width: 95%;
+    width: 70%;
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #8B0909;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 27px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .login form button:hover {
-    background-color: #0056b3;
+    background-color: #B20808;
 }
 
 
@@ -254,11 +255,12 @@ body {
     border: 1px solid #ddd;
     margin-top: 20px;
     border-radius:20px;
+    margin-bottom: 20px;
 }
 
 .announcement-box-bottom h3 {
     font-size: 1.2rem;
-    margin-bottom: px;
+    margin-bottom:20 px;
 }
 
 .announcement-box-bottom p {
@@ -267,7 +269,7 @@ body {
 }
 
 .announcement-box-bottom a {
-    color: #007BFF;
+    color: #8B0909;
     text-decoration: none;
 }
 
@@ -305,284 +307,84 @@ body {
     text-decoration: underline;
 }
 
-.bottom-part{
+.bottom-part {
     display: flex;
     justify-content: space-around;
     padding-left: 40px;
     padding-right: 60px;
+    margin-bottom: 20px; 
+}
 
-} 
 .announcements-bottom {
-    display: none; /* Hide the announcements initially */
+    display: none; 
 }
 
-.home-content {
+/* Footer */
+.footer {
+    padding: 5px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    border-top: 2px solid #ccc; 
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.footer-content {
     display: flex;
-    justify-content: space-around;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 20px;
-    height: 100%;
-    word-break: break-word;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
 }
 
-.home-announcements {
-    width: 90%;
-    padding-right: 1%;
-    border-color: #333;
-}
-
-.home-announcements h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.home-announcements-box {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    border-radius: 20px;
-}
-
-.home-announcements-box h3 {
-    font-size: 1.2rem;
-    margin-bottom: px;
-}
-
-.home-announcements-box p {
-    font-size: 1rem;
-    margin: 20px 0;
-}
-
-.home-announcements-box a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.home-announcements-box a:hover {
-    text-decoration: underline;
-}
-
-.Class-Schedule-content {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 20px;
-    height: 100%;
-    word-break: break-word;
-}
-
-.Class-Schedule-announcements {
-    width: 90%;
-    padding-right: 1%;
-    border-color: #333;
-    min-width: 1000px;
-}
-
-.Class-Schedule-announcements h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.Class-Schedule-announcements-box {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    border-radius: 20px;
-    min-width: 1000px;
-}
-
-.Class-Schedule-announcements-box h3 {
-    font-size: 1.2rem;
-    margin-bottom: px;
-}
-
-.Class-Schedule-announcements-box p {
-    font-size: 1rem;
-    margin: 20px 0;
-}
-
-.Class-Schedule-announcements-box a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.Class-Schedule-announcements-box a:hover {
-    text-decoration: underline;
-}
-
-.Residency-content {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 20px;
-    height: 100%;
-    word-break: break-word;
-}
-
-.Residency-announcements {
-    width: 90%;
-    padding-right: 1%;
-    border-color: #333;
-}
-
-.Residency-announcements h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 20px;
+.contact-info {
+    width: 50%; 
     text-align: left;
 }
 
-.Residency-announcements-box {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    border-radius: 20px;
-    min-width: 1000px;
+.contact-info p {
+    margin: 5px 0;
 }
 
-.Residency-announcements-box h3 {
-    font-size: 1.2rem;
-    margin-bottom: px;
+.contact-info a {
+    color: #8B0909; 
+    text-decoration: none; 
 }
 
-.Residency-announcements-box th{
-    text-align:left;
-}
-.Residency-announcements-box p {
-    font-size: 1rem;
-    margin: 20px 0;
+.contact-info a:hover {
+    text-decoration: underline; 
 }
 
-.Residency-announcements-box a {
-    color: #007BFF;
-    text-decoration: none;
+.social-links {
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 10px; 
 }
 
-.Residency-announcements-box a:hover {
-    text-decoration: underline;
+.social-links a {
+    display: inline-block; 
 }
 
-.Matriculation-content {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 20px;
-    height: 100%;
-    word-break: break-word;
+.social-links img {
+    width: 35px; 
+    height: 35px;
+    border: none; 
+    transition: transform 0.3s, opacity 0.3s; 
 }
 
-.Matriculation-announcements {
-    width: 90%;
-    padding-right: 1%;
-    border-color: #333;
+.social-links img:hover {
+    transform: scale(1.2); 
+    opacity: 0.8; 
 }
 
-.Matriculation-announcements h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
+.footer-bottom {
+    font-size: 14px;
+    color: #a9a6a6;
+    text-align: end;
+    margin-top: 10px;
 }
 
-.Matriculation-announcements-box {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    border-radius: 20px;
-    min-width: 1000px;
-}
 
-.Matriculation-announcements-box h3 {
-    font-size: 1.2rem;
-    margin-bottom: px;
-}
 
-.Matriculation-announcements-box p {
-    font-size: 1rem;
-    margin: 20px 0;
-}
 
-.Matriculation-announcements-box a {
-    color: #007BFF;
-    text-decoration: none;
-}
 
-.Matriculation-announcements-box td{
-    padding-bottom: 5px;
-}
-
-.Matriculation-announcements-box a:hover {
-    text-decoration: underline;
-}
-
-.Matriculation-announcements-box input {
-    width: 95%;
-    padding: 5px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.Prospectus-content {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 20px;
-    height: 100%;
-    word-break: break-word;
-}
-
-.Prospectus-announcements {
-    width: 90%;
-    padding-right: 1%;
-    border-color: #333;
-}
-
-.Prospectus-announcements h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.Prospectus-announcements-box {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    border-radius: 20px;
-}
-
-.Prospectus-announcements-box h3 {
-    font-size: 1.2rem;
-    margin-bottom: px;
-}
-
-.Prospectus-announcements-box p {
-    font-size: 1rem;
-    margin: 20px 0;
-}
-
-.Prospectus-announcements-box a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.Prospectus-announcements-box a:hover {
-    text-decoration: underline;
-}
