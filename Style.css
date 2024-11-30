@@ -365,3 +365,156 @@ body {
 .home-announcements-box a:hover {
     text-decoration: underline;
 }
+
+.Class-Schedule-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+}
+
+.Class-Schedule-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Class-Schedule-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Class-Schedule-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Class-Schedule-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Class-Schedule-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.Class-Schedule-announcements-box a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.Class-Schedule-announcements-box a:hover {
+    text-decoration: underline;
+}
+
+.Residency-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+}
+
+.Residency-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Residency-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.Residency-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Residency-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Residency-announcements-box th{
+    text-align:left;
+}
+.Residency-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.Residency-announcements-box a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.Residency-announcements-box a:hover {
+    text-decoration: underline;
+}
+
+.Matriculation-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+}
+
+.Matriculation-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Matriculation-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Matriculation-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Matriculation-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Matriculation-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.Matriculation-announcements-box a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.Matriculation-announcements-box a:hover {
+    text-decoration: underline;
+}
