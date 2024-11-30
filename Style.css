@@ -426,6 +426,48 @@ body {
     margin: 20px 0;
 }
 
+.Class-Schedule-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+    min-width: 1000px;
+}
+
+.Class-Schedule-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Class-Schedule-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Class-Schedule-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Class-Schedule-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Class-Schedule-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
 .Residency-content {
     display: flex;
     justify-content: space-around;
