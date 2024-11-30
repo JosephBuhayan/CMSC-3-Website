@@ -384,6 +384,140 @@ body {
     margin-top: 10px;
 }
 
+.home-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+    min-width: 1000px;
+}
+
+.home-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.home-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.home-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.home-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.home-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.Residency-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+    min-width: 1000px;
+}
+
+.Residency-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Residency-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Residency-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Residency-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Residency-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.Prospectus-announcements-box a {
+    color: #8B0909;
+    text-decoration: none;
+}
+
+.Prospectus-announcements-box a:hover {
+    text-decoration: underline;
+}
+
+.Matriculation-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+    min-width: 1000px;
+}
+
+.Matriculation-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Matriculation-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Matriculation-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Matriculation-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Matriculation-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
 
 .Matriculation-announcements-box td{
     padding-bottom: 5px;
