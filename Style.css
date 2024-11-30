@@ -545,6 +545,7 @@ body {
     padding-top: 20px;
     height: 100%;
     word-break: break-word;
+    min-width: 1000px;
 }
 
 .Prospectus-announcements {
