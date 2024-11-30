@@ -385,6 +385,71 @@ body {
 }
 
 
+.Matriculation-announcements-box td{
+    padding-bottom: 5px;
+}
 
+.Matriculation-announcements-box a:hover {
+    text-decoration: underline;
+}
 
+.Matriculation-announcements-box input {
+    width: 95%;
+    padding: 5px;
+    background-color: #8B0909;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.Prospectus-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+    min-width: 1000px;
+}
+
+.Prospectus-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Prospectus-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Prospectus-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Prospectus-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Prospectus-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.Prospectus-announcements-box a {
+    color: #8B0909;
+    text-decoration: none;
+}
+
+.Prospectus-announcements-box a:hover {
+    text-decoration: underline;
+}
