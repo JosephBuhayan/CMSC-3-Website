@@ -392,7 +392,6 @@ body {
     padding-top: 20px;
     height: 100%;
     word-break: break-word;
-    min-width: 1000px;
 }
 
 .home-announcements {
@@ -628,4 +627,196 @@ body {
 
 .Prospectus-announcements-box a:hover {
     text-decoration: underline;
+}
+
+.Announcement-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+}
+
+.Announcement-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Announcement-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Announcement-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Announcement-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Announcement-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.Announcement-announcements-box td{
+    padding-bottom: 5px;
+}
+
+.Announcement-announcements-box a {
+    color: #8B0909;
+    text-decoration: none;
+}
+
+.Announcement-announcements-box a:hover {
+    text-decoration: underline;
+}
+
+.Announcement-announcements-box input {
+    width: 95%;
+    padding: 5px;
+    background-color: #8B0909;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.My-Exams-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+}
+
+.My-Exams-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.My-Exams-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.My-Exams-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.My-Exams-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.My-Exams-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.My-Exams-announcements-box td{
+    padding-bottom: 5px;
+}
+
+.My-Exams-announcements-box a {
+    color: #8B0909;
+    text-decoration: none;
+}
+
+.My-Exams-announcements-box a:hover {
+    text-decoration: underline;
+}
+
+.My-Exams-announcements-box input {
+    width: 95%;
+    padding: 5px;
+    background-color: #8B0909;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Exam-Schedule-content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    height: 100%;
+    word-break: break-word;
+}
+
+.Exam-Schedule-announcements {
+    width: 90%;
+    padding-right: 1%;
+    border-color: #333;
+}
+
+.Exam-Schedule-announcements h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Exam-Schedule-announcements-box {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Exam-Schedule-announcements-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: px;
+}
+
+.Exam-Schedule-announcements-box p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.Exam-Schedule-announcements-box td{
+    padding-bottom: 5px;
+}
+
+.Exam-Schedule-announcements-box a {
+    color: #8B0909;
+    text-decoration: none;
+}
+
+.Exam-Schedule-announcements-box a:hover {
+    text-decoration: underline;
+}
+
+.Exam-Schedule-announcements-box input {
+    width: 95%;
+    padding: 5px;
+    background-color: #8B0909;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

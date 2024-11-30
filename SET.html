@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UP Mindanao Student Records System</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header class="headerlogo">
+      <div class="logo">
+        <img src="Images/UPMin_Logo.png" alt="UP Mindanao Logo" />
+      </div>
+      <div class="header-text">
+        <h1>UNIVERSITY OF THE PHILIPPINES MINDANAO</h1>
+        <p>STUDENT RECORDS SYSTEM</p>
+      </div>
+    </header>
+    <div class="navigation">
+      <nav>
+        <div class="dropdown">
+          <a href="#">Registration</a>
+          <div class="dropdown-content">
+            <a href="">Registration</a>
+            <a href="Class-Schedule.html">Class Schedule</a>
+            <a href="Residency.html">Residency</a>
+            <a href="Matriculation.html">Matriculation</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Records</a>
+          <div class="dropdown-content">
+            <a href="Prospectus.html">Prospectus</a>
+            <a href="Grades.html">Grades</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Info</a>
+          <div class="dropdown-content">
+            <a href="Announcements.html">Announcements</a>
+            <a href="Home.html">UP Privacy Notice</a>
+            <a href="UP-Email.html">UP Email</a>
+            <a href="My-Schedule.html">My Schedule</a>
+            <a href="FinalExams.html">Final Exams</a>
+            <a href="SET.html">Student Evaluation for Teachers (SET)</a>
+            <a href="CourseEval.html">Course Evaluation</a>
+            <a href="#">Change Password</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="Login.html">Logout</a>
+        </div>
+      </nav>
+    </div>
+    <main class="My-Exams-content">
+      <section class="My-Exams-announcements">
+        <h2>
+          STUDENT EVALUATION FOR TEACHING EFFECTIVENESS (SET) For FIRST Semester
+          A.Y. 2024-2025
+        </h2>
+        <div class="My-Exams-announcements-box">
+          <p>
+            The Student Evaluation of Teaching (SET) will be administered this
+            semester using the instrument that the UP Mindanao University
+            Council and UP System had approved. The result of the SET will be
+            for DEVELOPMENTAL PURPOSES ONLY. That is, to improve remote learning
+            and teaching and not for decision-making on faculty promotion,
+            awards, tenure, appointment, and renewals. It will be one of the
+            feedback mechanisms on our delivery of remote learning this first
+            semester.
+          </p>
+          <p>
+            The SET rating scale is from 1 to 5 with a provision of NA in case
+            the item is not applicable. Your sincere and honest feedback is very
+            much appreciated. Your responses will be anonymous and will not be
+            linked to you as an individual.
+          </p>
+          <p>
+            Instructions. Please provide a SET response for all your subjects.
+            For subjects that have two or more teachers, please evaluate each
+            faculty separately. You may proceed by clicking or tapping the
+            "Evaluate" corresponding to your enrolled course. Please take note
+            that you cannot edit your responses as soon as your evaluation has
+            been submitted. Thank you very much.
+          </p>
+        </div>
+        <div class="My-Exams-announcements-box">
+          <table style="margin: auto; width: 100%; border-collapse: collapse;" border="1">
+            <thead style="background-color: #d6e3bc">
+              <tr>
+                <td style="text-align: center">
+                  <strong>Course Number</strong>
+                </td>
+                <td style="text-align: center">
+                  <strong>Course Title</strong>
+                </td>
+                <td style="text-align: center"><strong>Faculty</strong></td>
+                <td style="text-align: center"><strong>Section</strong></td>
+                <td style="text-align: center"><strong>Day</strong></td>
+                <td style="text-align: center"><strong>Time</strong></td>
+                <td style="text-align: center"><strong>SET</strong></td>
+              </tr>
+            </thead>
+            <tbody>
+              <form
+              >
+                <input type="hidden" name="facultyCode" value="TMEGallardo" />
+                <input type="hidden" name="courseNumber" value="KAS 1" />
+                <input type="hidden" name="section" value="E1" />
+                <input type="hidden" name="enrollID" value="224861" />
+                <input type="hidden" name="scheduleID" value="17230" />
+                <tr>
+                  <td>KAS 1</td>
+                  <td>Kasaysayan ng Pilipinas</td>
+                  <td>TMEGallardo</td>
+                  <td>E1</td>
+                  <td>TTh</td>
+                  <td>1:00 PM-2:30 PM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value=" CGManliguez" />
+                <input type="hidden" name="courseNumber" value="CMSC 3" />
+                <input type="hidden" name="section" value="N-3L" />
+                <input type="hidden" name="enrollID" value="224859" />
+                <input type="hidden" name="scheduleID" value="17259" />
+                <tr>
+                  <td>CMSC 3</td>
+                  <td>Introduction to Web Design</td>
+                  <td>CGManliguez</td>
+                  <td>N-3L</td>
+                  <td>T</td>
+                  <td>7:00 AM-10:00 AM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value="VBCalag" />
+                <input type="hidden" name="courseNumber" value="CMSC 3" />
+                <input type="hidden" name="section" value="N-3L" />
+                <input type="hidden" name="enrollID" value="224859" />
+                <input type="hidden" name="scheduleID" value="17259" />
+                <tr>
+                  <td>CMSC 3</td>
+                  <td>Introduction to Web Design</td>
+                  <td>VBCalag</td>
+                  <td>N-3L</td>
+                  <td>T</td>
+                  <td>7:00 AM-10:00 AM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value="VBCalag" />
+                <input type="hidden" name="courseNumber" value="CMSC 3" />
+                <input type="hidden" name="section" value="N-3L" />
+                <input type="hidden" name="enrollID" value="224859" />
+                <input type="hidden" name="scheduleID" value="17259" />
+                <tr>
+                  <td>CMSC 3</td>
+                  <td>Introduction to Web Design</td>
+                  <td>VBCalag</td>
+                  <td>N-3L</td>
+                  <td>T</td>
+                  <td>7:00 AM-10:00 AM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value="VBCalag" />
+                <input type="hidden" name="courseNumber" value="CMSC 10" />
+                <input type="hidden" name="section" value="F" />
+                <input type="hidden" name="enrollID" value="224857" />
+                <input type="hidden" name="scheduleID" value="17263" />
+                <tr>
+                  <td>CMSC 10</td>
+                  <td>Introduction to Computer Science</td>
+                  <td>VBCalag</td>
+                  <td>F</td>
+                  <td>TTh</td>
+                  <td>2:30 PM-4:00 PM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value="JRMCatane" />
+                <input type="hidden" name="courseNumber" value="CMSC 56" />
+                <input type="hidden" name="section" value="O" />
+                <input type="hidden" name="enrollID" value="224860" />
+                <input type="hidden" name="scheduleID" value="17271" />
+                <tr>
+                  <td>CMSC 56</td>
+                  <td>
+                    Discrete Mathematical Structures in Computer Science I
+                  </td>
+                  <td>JRMCatane</td>
+                  <td>O</td>
+                  <td>WF</td>
+                  <td>4:00 PM-5:30 PM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value="HMLLimpag" />
+                <input type="hidden" name="courseNumber" value="CMSC 18" />
+                <input type="hidden" name="section" value="G-3L" />
+                <input type="hidden" name="enrollID" value="224858" />
+                <input type="hidden" name="scheduleID" value="17292" />
+                <tr>
+                  <td>CMSC 18</td>
+                  <td>Computer Programming I</td>
+                  <td>HMLLimpag</td>
+                  <td>G-3L</td>
+                  <td>M</td>
+                  <td>7:00 AM-10:00 AM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value="HMLLimpag" />
+                <input type="hidden" name="courseNumber" value="CMSC 18" />
+                <input type="hidden" name="section" value="G-3L" />
+                <input type="hidden" name="enrollID" value="224858" />
+                <input type="hidden" name="scheduleID" value="17292" />
+                <tr>
+                  <td>CMSC 18</td>
+                  <td>Computer Programming I</td>
+                  <td>HMLLimpag</td>
+                  <td>G-3L</td>
+                  <td>M</td>
+                  <td>7:00 AM-10:00 AM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value="HLSoberano" />
+                <input
+                  type="hidden"
+                  name="courseNumber"
+                  value="NSTP 1-CWTS DHK"
+                />
+                <input type="hidden" name="section" value="ST5" />
+                <input type="hidden" name="enrollID" value="224862" />
+                <input type="hidden" name="scheduleID" value="17390" />
+                <tr>
+                  <td>NSTP 1-CWTS DHK</td>
+                  <td>
+                    National Service Training Program-Civic Welfare Training
+                    Service 1
+                  </td>
+                  <td>HLSoberano</td>
+                  <td>ST5</td>
+                  <td>M</td>
+                  <td>10:00 AM-1:00 PM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+              <form
+                action="index.php?go=evaluation&task=eval_page"
+                method="post"
+              >
+                <input type="hidden" name="facultyCode" value="HLSoberano" />
+                <input type="hidden" name="courseNumber" value="PE 1" />
+                <input type="hidden" name="section" value="I4" />
+                <input type="hidden" name="enrollID" value="232828" />
+                <input type="hidden" name="scheduleID" value="17411" />
+                <tr>
+                  <td>PE 1</td>
+                  <td>Foundations of Physical Fitness</td>
+                  <td>HLSoberano</td>
+                  <td>I4</td>
+                  <td>WF</td>
+                  <td>7:00 AM-8:00 AM</td>
+                  <td>
+                    <input type="submit" name="submit" value="Evaluate" />
+                  </td>
+                </tr>
+              </form>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
