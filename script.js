@@ -13,3 +13,14 @@
       button.textContent = "See More Announcements"; // Change button text
     }
   });
+
+  // JavaScript function to toggle the "Enlisted Courses" section
+  function toggleEnlistedCourses() {
+    const enlistedCourses = document.getElementById('enlistedCourses');
+    if (enlistedCourses.classList.contains('hidden')) {
+      enlistedCourses.classList.remove('hidden'); // Show the section
+    } else {
+      enlistedCourses.classList.add('hidden'); // Hide the section
+    }
+  }
+

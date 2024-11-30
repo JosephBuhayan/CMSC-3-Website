@@ -5,6 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UP Mindanao Student Records System</title>
   <link rel="stylesheet" href="Style.css">
+  <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 1000px;
+    }
+    th, td {
+        border: 1px solid #000;
+        padding: 5px;
+        text-align: left;
+        
+    }
+    th {
+        background-color: green;
+        color: white;
+    }
+    .total-units {
+        font-weight: bold;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .hidden {
+    display: none; /* Hides the element */
+  }
+</style>
 </head>
 <body>
   <header class="headerlogo">
@@ -30,7 +55,7 @@
       <div class="dropdown">
         <a href="#">Records</a>
         <div class="dropdown-content">
-          <a href="#" >Prospectus</a>
+          <a href="Prospectus.html" >Prospectus</a>
           <a href="#" >Grades</a>
         </div>
       </div>
@@ -56,8 +81,7 @@
     <section class="Matriculation-announcements">
         <h2>Matriculation</h2>
       <div class="Matriculation-announcements-box">
-        <div id="student" style="width: 100%;">
-            <div id="studinfo">	
+        <div style="width: 100%;">	
                 <table width="100%" cellpadding="0" cellspacing="0" border="0" class="form">
                 <tr>
                     <td width="15%" >Student Number</td>
@@ -78,11 +102,163 @@
                     <td>BSCS 2018</td>        
                </tr>        
                </table>
-             
-         
             </div>
-            
-           
+            <div class="panel">
+                  <form action="#">
+                      <table  align="center" width="700px" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                              <td>Semester
+                                  <select name="semester" id="semester">
+                                      <option value="0">--SELECT--</option>
+                                      <option value="FIRST" SELECTED >FIRST</option>
+                                      <option value="SECOND" >SECOND</option>
+                                      <option value="THIRD"  >THIRD</option>
+                                      <option value="SUMMER"  >SUMMER</option>
+                                      <option value="MID-YEAR TERM"  >MID-YEAR TERM</option>
+                                  </select>
+                              </td>
+                              <td>School Year
+                              <select name="schoolyear" id="schoolyear">
+                                  <option value="0">--SELECT--</option>
+                                  <option value="2024-2025" SELECTED>2024-2025</option>
+                                  <option value="2023-2024" >2023-2024</option>
+                                  <option value="2022-2023" >2022-2023</option>
+                                  <option value="2021-2022" >2021-2022</option>
+                                  <option value="2020-2021" >2020-2021</option>
+                                  <option value="2019-2020" >2019-2020</option>
+                                  <option value="2018-2019" >2018-2019</option>
+                                  <option value="2017-2018" >2017-2018</option>
+                                  <option value="2016-2017" >2016-2017</option>
+                                  <option value="2015-2016" >2015-2016</option>
+                                  <option value="2014-2015" >2014-2015</option>
+                                  <option value="2013-2014" >2013-2014</option>
+                                  <option value="2012-2013" >2012-2013</option>
+                                  <option value="2011-2012" >2011-2012</option>
+                                  <option value="2010-2011" >2010-2011</option>
+                                  <option value="2009-2010" >2009-2010</option>
+                                  <option value="2008-2009" >2008-2009</option>
+                                  <option value="2007-2008" >2007-2008</option>
+                                  <option value="2006-2007" >2006-2007</option>
+                                  <option value="2005-2006" >2005-2006</option>
+                                  <option value="2004-2005" >2004-2005</option>
+                                  <option value="2003-2004" >2003-2004</option>
+                                  <option value="2002-2003" >2002-2003</option>
+                                  <option value="2001-2002" >2001-2002</option>
+                                  <option value="2000-2001" >2000-2001</option>
+                                  <option value="1999-2000" >1999-2000</option>
+                                  <option value="1998-1999" >1998-1999</option>
+                                  <option value="1997-1998" >1997-1998</option>
+                                  <option value="1996-1997" >1996-1997</option>
+                                  <option value="1995-1996" >1995-1996</option>
+                              </select>
+                          </td>
+                              <td><input type="button" name="Go View" value="Go view" onclick="toggleEnlistedCourses()" />
+                              </td>
+                          </tr>
+                      </table>
+                    <div id="enlistedCourses" class="hidden">
+                        
+
+                      <h2>ENLISTED COURSES</h2>
+                      
+                      <table>
+                          <thead>
+                              <tr>
+                                  <th style="width: 60px;">Course</th>
+                                  <th style="width: 200px;">Course Title</th>
+                                  <th style="width: 40px;">Units</th>
+                                  <th>Section</th>
+                                  <th>Day</th>
+                                  <th>Time</th>
+                                  <th>Room</th>
+                                  <th>Faculty</th>
+                                  <th>Action</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>KAS 1</td>
+                                  <td>Kasaysayan ng Pilipinas</td>
+                                  <td>3</td>
+                                  <td>E1</td>
+                                  <td>TTh</td>
+                                  <td>1:00 PM-2:30 PM</td>
+                                  <td>CHSS 113</td>
+                                  <td>TMEGallardo</td>
+                                  <td></td>
+                              </tr>
+                              <tr>
+                                  <td>CMSC 3</td>
+                                  <td>Introduction to Web Design</td>
+                                  <td>3</td>
+                                  <td>N-3L<br>N</td>
+                                  <td>T<br>WF</td>
+                                  <td>7:00 AM-10:00 AM<br>2:30 PM-3:30 PM</td>
+                                  <td>CSM 229<br>CSM 206</td>
+                                  <td>CGManliguez</td>
+                                  <td></td>
+                              </tr>
+                              <tr>
+                                  <td>CMSC 10</td>
+                                  <td>Introduction to Computer Science</td>
+                                  <td>3</td>
+                                  <td>F</td>
+                                  <td>TTh</td>
+                                  <td>2:30 PM-4:00 PM</td>
+                                  <td>CSM 206</td>
+                                  <td>VBCalag</td>
+                                  <td></td>
+                              </tr>
+                              <tr>
+                                  <td>CMSC 56</td>
+                                  <td>Discrete Mathematical Structures in Computer Science I</td>
+                                  <td>3</td>
+                                  <td>O</td>
+                                  <td>WF</td>
+                                  <td>4:00 PM-5:30 PM</td>
+                                  <td>CSM 222</td>
+                                  <td>JRMCatane</td>
+                                  <td></td>
+                              </tr>
+                              <tr>
+                                  <td>CMSC 18</td>
+                                  <td>Computer Programming I</td>
+                                  <td>3</td>
+                                  <td>G-3L<br>G</td>
+                                  <td>M<br>TTh</td>
+                                  <td>7:00 AM-10:00 AM<br>4:00 PM-5:00 PM</td>
+                                  <td>CSM 223<br>CSM 206</td>
+                                  <td>HMLimpag</td>
+                                  <td></td>
+                              </tr>
+                              <tr>
+                                  <td>NSTP 1-CWTS DHK</td>
+                                  <td>National Service Training Program-Civic Welfare Training Service I</td>
+                                  <td>(3)</td>
+                                  <td>ST5</td>
+                                  <td>M</td>
+                                  <td>10:00 AM-11:00 AM</td>
+                                  <td>0</td>
+                                  <td>HLSoberano</td>
+                                  <td></td>
+                              </tr>
+                              <tr>
+                                  <td>PE 1</td>
+                                  <td>Foundations of Physical Fitness</td>
+                                  <td>(2)</td>
+                                  <td>I4</td>
+                                  <td>WF</td>
+                                  <td>7:00 AM-8:00 AM</td>
+                                  <td>0</td>
+                                  <td>HLSoberano</td>
+                                  <td></td>
+                              </tr>
+                          </tbody>
+                      </table>
+                      <p class="total-units">Total Units enlisted: 15</p>
+                    </div>
+                  </form>
+              </div> 
         </div>
       </div>
 
