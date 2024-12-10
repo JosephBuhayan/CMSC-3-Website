@@ -23,10 +23,5 @@
       enlistedCourses.classList.add('hidden'); // Hide the section
     }
   }
-// scripts.js
 
-// You can add any interactivity needed here, such as dynamic content or form validation
-// For now, this file is empty as the provided HTML doesn't require JavaScript functionality
-
-// Example of script to show the current year dynamically in the footer
 document.getElementById("footnote").innerHTML = "COPYRIGHT " + new Date().getFullYear() + " © Information Technology Office";

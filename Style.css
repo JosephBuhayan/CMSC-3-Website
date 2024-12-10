@@ -5893,14 +5893,7 @@ body {
     color: #0a4424;
     line-height: normal;
   }
-  html, body {
-    height: 100%;  
-    margin: 0;  
-    overflow: auto;  
-}
-.content {
-    height: 2000px;  
-}
+
 
 html, body {
     overflow: auto;  
