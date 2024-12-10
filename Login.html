@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+
   <header class="headerlogo">
     <div class="logo">
       <img src="Images/UPMin_Logo.png" alt="UP Mindanao Logo">
@@ -20,6 +21,16 @@
   </div>
 
   <main class="content">
+    <section class="login">
+      <h2>Student Login</h2>
+
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+        <p id="errorMessage" style="color: red; display: none;">Invalid username or password. Please try again.</p>
+      </form>
+    </section>
     <section class="announcements">
       <h2>ANNOUNCEMENTS</h2>
       <div class="announcement-box">
@@ -42,14 +53,7 @@
         </ul>
       </div>
     </section>
-    <section class="login">
-      <h2>Student Login</h2>
-      <form>
-        <input type="text" placeholder="Username" required>
-        <input type="password" placeholder="Password" required>
-        <button type="submit"><a href="Home.html">Login</a></button>
-      </form>
-    </section>
+
   </main>
   <div class="content-bottom">
     <section class="announcements-bottom">
@@ -94,7 +98,7 @@
       <button onclick="location.href='#'">See More Announcements</button>
     </section>
   </div>
-  <script src="script.js"></script> <div class="footer">
+   <div class="footer">
     <div class="footer-content">
         <div class="contact-info">
             <p>College of Humanities and Social Sciences (CHSS) : <a href="mailto:chsscs.upmindanao@up.edu.ph">chsscs.upmindanao@up.edu.ph</a></p>
@@ -118,5 +122,7 @@
         <p>&copy; University of the Philippines Mindanao 2024 </p>
     </div>
 </div>
+
 </body>
+<script src="script.js"></script>
 </html>
