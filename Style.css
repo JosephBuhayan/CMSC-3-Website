@@ -120,14 +120,14 @@ body {
 }
 
 .logo img {
-    width: 100px;
+    width: 90px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .header-text h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #333;
 }
 
@@ -821,7 +821,9 @@ body {
     cursor: pointer;
 }
 .box {
-    position: relative;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     width: 1107px;
     height: 1609px;
   }
@@ -5910,6 +5912,17 @@ html, body {
 }
 
 @media only screen and (max-width: 600px) {
+  .box {
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 1107px;
+    height: 1609px;
+  }
+
+
+.yawaka{
+  margin-left: 115%;
+}
   .content {
     display: list-item;
     justify-content: space-around;
@@ -6276,7 +6289,7 @@ html, body {
 }
 
 .home-announcements h2 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #333;
   margin: 20px;
   text-align: justify;
